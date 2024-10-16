@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nova Round', system-ui;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 60px;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#perfil {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 3px;
+    padding: 3px;
+}
+
+.area-aluno {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    position: relative;
+    background-image: url(/assets/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 637px;
+}
+
+h1 {
+     position: absolute;
+     top: 20%;
+     left: 50%;
+     z-index: 2;
+     transform:translate(-100%, -50%);
+     font-family: "Palette Mosaic", system-ui;
+     font-size: 70px;
+     text-align: left;
+     -webkit-transform:translate(-100%, -50%);
+     -moz-transform:translate(-100%, -50%);
+     -ms-transform:translate(-100%, -50%);
+     -o-transform:translate(-100%, -50%);
+}
+
+.mascote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fala {
+    background-color: rgba(255, 215, 0, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    transform: translate(-170%, 150%);
+    -webkit-transform: translate(-170%, 150%);
+    -moz-transform: translate(-170%, 150%);
+    -ms-transform: translate(-170%, 150%);
+    -o-transform: translate(-170%, 150%);
+}
+
+#curi{
+    transform: translate(-70%, 100%);
+    -webkit-transform: translate(-70%, 100%);
+    -moz-transform: translate(-70%, 100%);
+    -ms-transform: translate(-70%, 100%);
+    -o-transform: translate(-70%, 100%);
+    height: 300px;
+    width: auto;
+}
+
+@media (min-width: 600px) {
+    .area-aluno {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    header{
+        max-width: auto;
+    }
+}

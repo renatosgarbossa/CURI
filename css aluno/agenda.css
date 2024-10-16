@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #004d00; /* Verde escuro */
+    color: #fff;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 60px;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#perfil {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 3px;
+    padding: 3px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Palette Mosaic", system-ui;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.calendar {
+    background-color: #ff00c7; /* Magenta brilhante */
+    padding: 20px;
+    border-radius: 10px;
+    width: 550px;
+    margin: 0 auto;
+    height: auto;
+    font-family: 'Nova Round', system-ui;    
+}
+
+.month{
+    margin-bottom: 20px;
+}
+
+.month span{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nova Round';
+    margin-bottom: 50px;
+}
+
+.day-names, .dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.day-names span, .dates span {
+    background-color: #f1f1f1;
+    color: #2b463c; /* Verde escuro */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.dates>.highlight{
+    background-color: red;
+    color: white;
+}
+
+.day-names span{
+    background-color: yellow;
+    font-family: 'Nova Round';
+}
+

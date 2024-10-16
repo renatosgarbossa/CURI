@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #004d00;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#perfil {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Palette Mosaic", system-ui;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.calendar {
+    background-color: #ff00c7; /* Magenta brilhante */
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.month{
+    margin-bottom: 20px;
+}
+
+.month span {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nova Round';
+    margin-bottom: 50px;
+}
+
+.day-names, .dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.day-names span, .dates span {
+    background-color: #f1f1f1;
+    color: #2b463c; /* Verde escuro */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.dates>.highlight{
+    background-color: red;
+    color: white;
+}
+
+.day-names span{
+    background-color: yellow;
+    font-family: 'Nova Round';
+}
+
+.observations {
+    background-color: #ff00c7; /* Magenta brilhante */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: left;
+}
+
+.observations h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.observations p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.highlight-number {
+    padding: 3px 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+#mes{
+    padding: 3px 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+}

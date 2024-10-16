@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0A4D1C; /* Cor de fundo verde */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: yellow;
+    padding: 30px;
+    border-radius: 36px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.container h1 {
+    color: #000;
+    text-align: center;
+    text-shadow: 8px 12px 5.9px rgba(0, 0, 0, 0.25);
+    font-family: "Nova Round";
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #000;
+    font-size: 1.1rem;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    align-content: center;
+    font-family: 'montserrat';
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+}
+
+input {
+    background-color: yellow;
+    color: black;
+    border: 2px solid rgb(0, 0, 0); /* Define a borda para combinar com o fundo */
+    padding: 10px; /* Espaço interno para conforto */
+    border-radius: 4px; /* Bordas arredondadas (opcional) */
+  }
+  
+  /* Estilo do placeholder */
+  ::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  
+  /* Estilo quando o campo está preenchido */
+  input:valid {
+    background-color: yellow;
+  }
+  
+  /* Remover o outline e ajustar a borda no estado de foco */
+  input:focus {
+    outline: none; /* Remove o contorno azul padrão */
+    border: 2px solid rgb(0, 0, 0); /* Mantém a mesma cor de borda ao focar */
+  }
+
+.container button {
+    padding: 10px;
+    border: none;
+    background-color: #E0F;
+    /*Cordefundorosa*/color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 28px;
+    width: 100%;
+    max-width: 181px;
+    height: 50px;
+    transition: background-color 0.3s ease;
+    font-family: Nova Round, system-ui;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    width: fit-content;
+    height: fit-content;
+    font-size: larger;
+}
+
+.container button:hover {
+    background-color: #D0E; /* Cor de fundo rosa escura */
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 400px;
+    }
+
+    .container button {
+        width: 181px;
+    }
+}
+
+a{
+    padding: auto;
+    margin: auto;
+    position: relative;
+    color: rgb(89, 89, 246);
+    text-align: left;
+    display: block;
+    transform: translateX(5px);
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    cursor: help;
+}

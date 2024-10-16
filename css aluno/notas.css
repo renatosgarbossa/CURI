@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #004d00;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#perfil {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px;
+}
+
+h1 {
+    font-family: "Palette Mosaic", system-ui;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+table {
+    width: 80%;
+    margin: 0 AUTO; /* Centraliza a tabela */
+    border-collapse: collapse;
+    background-color: #FF00FF;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+thead th {
+    background-color: #FF00FF;
+    color: #FFD700;
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 3px solid #FFD700;
+    text-transform: uppercase;
+}
+
+tbody td {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFD700;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FF00FF;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FF00FF;
+}
+
+tbody td:nth-child(2), 
+tbody td:nth-child(4), 
+tbody td:nth-child(6) {
+    color: rgb(255, 255, 255); /* Deixa a cor da nota de história amarela */
+    font-family: 'Nova Round';
+}

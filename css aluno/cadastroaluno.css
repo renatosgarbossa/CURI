@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #0A4D1C; /* Cor de fundo verde */
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Nova Round', system-ui;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: yellow;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'montserrat';
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Montserrat';
+}
+
+input[type="text"], select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+input {
+    background-color: yellow;
+    color: black;
+    border: 2px solid rgb(0, 0, 0); /* Define a borda para combinar com o fundo */
+    padding: 10px; /* Espaço interno para conforto */
+    border-radius: 4px; /* Bordas arredondadas (opcional) */
+  }
+  
+  /* Estilo do placeholder */
+  ::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  
+  /* Estilo quando o campo está preenchido */
+  input:valid {
+    background-color: yellow;
+  }
+  
+  /* Remover o outline e ajustar a borda no estado de foco */
+  input:focus {
+    outline: none; /* Remove o contorno azul padrão */
+    border: 2px solid rgb(0, 0, 0); /* Mantém a mesma cor de borda ao focar */
+  }
+
+a {
+  padding: 10px;
+  border: none;
+  background-color: #E0F;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 28px;
+  width: 100%;
+  max-width: 181px;
+  height: 50px;
+  transition: background-color 0.3s ease;
+  font-family: Nova Round, system-ui;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  width: fit-content;
+  height: fit-content;
+  font-size: larger;
+  
+}
+
+button:hover {
+    background-color: #0056b3;
+}

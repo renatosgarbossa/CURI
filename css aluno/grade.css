@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #004d00;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+#perfil {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 3px;
+    padding: 3px;
+}
+
+h1 {
+    font-family: "Palette Mosaic", system-ui;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto; /* Centraliza a tabela */
+    border-collapse: collapse;
+    background-color: #FF00FF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead th {
+    background-color: #FF00FF;
+    color: #FFD700;
+    font-size: 24px;
+    padding: 15px;
+    border-bottom: 3px solid #FFD700;
+}
+
+tbody td {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #FFD700;
+    font-family: 'Nova Round';
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FF00FF;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FF00FF;
+}
